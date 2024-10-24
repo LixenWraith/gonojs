@@ -1,5 +1,7 @@
 # GoNoJS
 
+A webserver framework, aiming for responsive and interactive web content without Javascript, using **WebSockets** for real-time interactivity and responsiveness, with **Server-Side Rendering (SSR)** only for full-page rendering where necessary. **Server-Sent Events (SSE)** will be leveraged when suited to unidirectional updates, and **CSS features** will play a crucial role in enhancing user experience without client-side JavaScript.
+
 #### Core Components and Their Interaction:
 1. **WebSockets for Interactivity and Responsiveness**
    - **Purpose**: WebSockets provide a **persistent, full-duplex communication** channel between the server and the browser. This ensures real-time updates, allowing dynamic parts of the page (like UI elements or data-driven components) to refresh instantly without the need for JavaScript.
@@ -65,7 +67,6 @@
 | **CSS Animations/Transitions**   | Manages all UI animations, layout, and responsiveness.                                       | Offloads visual interactions to the browser’s optimized CSS engine, reducing the need for JS for layout or visual transitions. |
 | **Pre-Rendered Caching**         | Used situationally to speed up delivery of frequently accessed or unchanged content.          | Reduces server processing load and enhances user-perceived performance.                                                      |
 
-### Final Thoughts
 This strategy seamlessly integrates **WebSockets for dynamic interactivity**, **SSE for passive updates**, and **CSS for layout and visual feedback**, while relying on **SSR for full-page loads**. The goal is to ensure **zero JavaScript** and achieve high-speed, low-latency responsiveness by distributing responsibilities efficiently between server-side processing and client-side CSS.
 
 
