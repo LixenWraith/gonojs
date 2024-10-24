@@ -1,6 +1,6 @@
 # GoNoJS
 
-A webserver framework, aiming for responsive and interactive web content without Javascript, using **WebSockets** for real-time interactivity and responsiveness, with **Server-Side Rendering (SSR)** only for full-page rendering where necessary. **Server-Sent Events (SSE)** will be leveraged when suited to unidirectional updates, and **CSS features** will play a crucial role in enhancing user experience without client-side JavaScript.
+A webserver framework, aiming for responsive and interactive web content delivery without Javascript, using **WebSockets** for real-time interactivity and responsiveness, with **Server-Side Rendering (SSR)** only for full-page rendering where necessary. **Server-Sent Events (SSE)** will be leveraged when suited to unidirectional updates, and **CSS features** will play a crucial role in enhancing user experience without client-side JavaScript.
 
 #### Core Components and Their Interaction:
 1. **WebSockets for Interactivity and Responsiveness**
